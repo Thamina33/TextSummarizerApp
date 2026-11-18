@@ -4,6 +4,12 @@ An end-to-end Natural Language Processing (NLP) web application that generates c
 
 ---
 
+## Demo
+
+<p align="center">
+  <img src="./demo.gif" alt="Text Summarizer App Demo" width="700"/>
+</p>
+
 ## Features
 
 * **Abstractive Text Summarisation:** Condenses lengthy articles, reports, and documents into clear, human-like summaries while preserving core context.
@@ -30,3 +36,36 @@ TextSummarizerApp/
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project documentation
 └── .gitignore              # Ignored environment & cache files
+
+
+## Local Setup & Installation
+
+Follow these steps to set up and run the application locally on your machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Thamina33/TextSummarizerApp.git](https://github.com/Thamina33/TextSummarizerApp.git)
+   cd TextSummarizerApp
+
+2. **Pull Git LFS files (for model weights):**
+   ```bash
+   git lfs install
+   git lfs pull
+
+3. **Create and activate a virtual environment:**
+   ```bash
+   conda create -n summarizer python=3.11 -y
+   conda activate summarizer
+
+4. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+
+5. **Run the application:**
+   ```bash
+   python app.py
+
+## Author
+
+**Thamina Omar Toma**  
+* GitHub: [@Thamina33](https://github.com/Thamina33)
