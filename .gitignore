@@ -1,0 +1,24 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+conda_env/
+.conda/
+
+# macOS and Editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+
+# Large model weights (Uncomment the line below if your model is >100MB for GitHub)
+# saved_summary_model/
