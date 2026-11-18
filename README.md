@@ -36,6 +36,9 @@ TextSummarizerApp/
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project documentation
 └── .gitignore              # Ignored environment & cache files
+```
+---
+
 
 
 ## Local Setup & Installation
